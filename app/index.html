@@ -14,15 +14,11 @@
     <link rel="stylesheet" href="../styles/platelist.css">-->
     <link rel="stylesheet" href="../components/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="styles/myplatelist.css">
+    <link href='http://fonts.googleapis.com/css?family=Michroma|Lobster|Gloria+Hallelujah|Pacifico|Dancing+Script|Architects+Daughter' rel='stylesheet' type='text/css'>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="../components/bootstrap/js/bootstrap.min.js"></script>
     <script src="scripts/platelist.js"></script>
-    <script>
-        $(function(){
-      $("#Home").load("home.html"); 
-    });
-    </script>
     </head>
 
     <body>
@@ -38,36 +34,42 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 
               <ul class="nav navbar-nav navbar-right" id="navigation">
-                <li class="active"><a href="#Home">Home</a></li>
+                <li><a href="#Home">Home</a></li>
                 <li><a href="#Team">Team</a></li>
-                <li><a href="#Prototypes">Prototypes</a></li>
+                <li><a href="#Report">Reports & Presentations</a></li>
+                <li><a href="#Prototype">Prototypes</a></li>
                 <li><a href="#Video">Video</a></li>
-                <li><a href="#Demo">Demo</a></li>
               </ul>
             </div>
         </div>
     </nav>
 
-	<div class="container">
-
-        <div id="Home" style="padding-top:100px;clear:both;">
-            <blockquote>
-                <h1>Overview</h1>
-            </blockquote>
+  <div class="overview">
+      <div class="container">
+          <div id="Home" style="padding-top:100px;clear:both;">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-8" style="height:250px;">
-                        <h3>Problems</h3>
-                        <p class="lead">People need motivation to try out recipes</p>
+                    <div class="col-xs-12 col-sm-8" style="height:150px;margin-top:100px;">
+                        <p class="header">YOUR MOTIVATION TO COOK </p>
                     </div>
-                    <div class="col-xs-12 col-sm-4" style="float:right;height:500px;overflow:hidden;">
-                        <img src="images/IMG_2154.jpg" alt="Wen Sun">
+                    <div class="col-xs-12 col-sm-4" style="float:right;height:500px;overflow:hidden;margin-top:60px">
+                        <img src="images/homescreen.png" height="100%" alt="Wen Sun">
                     </div>
-                    <div class="col-xs-12 col-sm-8" style="height:250px;">
-                        <h3>Solutions</h3>
-                        <p class="lead">People need motivation to try out recipes</p>
+                    <div class="col-xs-12 col-sm-8" style="height:250px;color:white;">
+                        <p class="lead">Users of recipes apps often find it difficult to get all ingredients listed in recipes. This greatly discourages them from using such apps. </p>
+                        <p class="lead">Our solution is to have ingredients always ready for cook by two major methods:</p>
+                        <ul>
+                          <li class="lead">Match recipes with on-hand ingredients using advance search</li>
+                          <li class="lead">Get ingredients easily and instantly by online ordering</li>
+                        </ul>
                     </div>
                 </div>
         </div>
+      </div>
+  </div>
+
+	<div class="container">
+
+        
         <div id="Team" style="padding-top:100px;clear:both;">
             <blockquote>
                 <h1> Team Members</h1>
@@ -111,35 +113,59 @@
               </div>
             </div><!-- /.row-->
         </div>
-        <div id="Prototypes" style="padding-top:100px;clear:both;">
+        <div id="Report" style="padding-top:100px;clear:both;">
             <blockquote>
-                <h1>Prototypes</h1>
+                <h1>Reports & Presentations</h1>
             </blockquote>
             <div class="media">
-              <a class="media-left media-top" href="inquiry.pdf">
+              <a class="media-left media-top" href="">
                 <img src="images/IMG_2154.jpg" alt="..." style="height:64px;width:64px;">
               </a>
               <div class="media-body">
                 <h4 class="media-heading">Conceptual Inquiry & Task Analysis</h4>
-                ...
+                <p>We interviewed three potential customers of Platelist. Through our contextual inquiry, we learned of many different facets of cooking that could still be improved.</p>
+                <div class="row">
+                <div class="col-sm-2"><a href="inquiry.pdf">PDF</a></div>
+                </div>
+                <div class="row">
+                <div class="col-sm-2"><a href="inquiryppt.pdf">Presentation</a></div>
+                </div>
               </div>
             </div>
             <div class="media">
-              <a class="media-left media-top" href="lowfi.pdf">
+              <a class="media-left media-top" href="">
                 <img src="images/IMG_2154.jpg" alt="..." style="height:64px;width:64px;">
               </a>
               <div class="media-body">
                 <h4 class="media-heading">Low-fi Prototype</h4>
-                ...
+                <p>We sketched the screens of Platelist with pencil and paper. The functions includes:</p>
+                <ul>
+                  <li>keep a “platelist” of recipes you like</li>
+                  <li>plan your meals for the week from that list</li>
+                  <li>order the ingredients you need for the week</li>
+                </ul>
+
+                <div class="row">
+                <div class="col-sm-2"><a href="lowfi.pdf">PDF</a></div>
+                </div>
+                <div class="row">
+                <div class="col-sm-2"><a href="lowfippt.pdf">Presentation</a></div>
+                </div>
               </div>
             </div>
             <div class="media">
-              <a class="media-left media-top" href="medfi.pdf">
+              <a class="media-left media-top" href="">
                 <img src="images/IMG_2154.jpg" alt="..." style="height:64px;width:64px;">
               </a>
               <div class="media-body">
                 <h4 class="media-heading">Med-fi Prototype</h4>
-                ...
+                <p>We built up the screens for all three tasks above with Proto.io/p>
+                <div class="row">
+                <div class="col-sm-2"><a href="medfi.pdf">PDF</a></div>
+                </div>
+                <div class="row">
+                <div class="col-sm-2"><a href="medfippt.pdf">Presentation</a></div>
+                </div>
               </div>
             </div>
             <div class="media">
@@ -148,9 +174,36 @@
               </a>
               <div class="media-body">
                 <h4 class="media-heading">Hi-fi Prototype</h4>
-                ...
+                <p>Description here</p>
+                <div class="row">
+                <div class="col-sm-2"><a href="">PDF</a></div>
+                </div>
+                <div class="row">
+                <div class="col-sm-2"><a href="">Presentation</a></div>
+                </div>
               </div>
             </div>
+            <div class="media">
+              <a class="media-left media-top" href="#">
+                <img src="images/IMG_2154.jpg" alt="..." style="height:64px;width:64px;">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Poster</h4>
+                <p>Description here</p>
+                <div class="row">
+                <div class="col-sm-2"><a href="">PDF</a></div>
+                </div>
+                <div class="row">
+                <div class="col-sm-2"><a href="">Presentation</a></div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div id="Prototype" style="padding-top:100px;clear:both;">
+            <blockquote>
+                <h1>Prototypes</h1>
+            </blockquote>
+            
         </div>
         <div id="Video" style="padding-top:100px;clear:both;">
             <blockquote>
@@ -163,12 +216,7 @@
                 <div style="position:absolute;left:70%;width:30%;">Descriptions here.</div>
             </div>
         </div>
-        <div id="Demo" style="padding-top:100px;clear:both;">
-            <blockquote>
-                <h1>Live Demo</h1>
-            </blockquote>
-            
-        </div>
+        
     <!--
             <div class="three columns sidebar">
                 <nav>

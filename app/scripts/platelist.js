@@ -3,6 +3,7 @@ $(document).ready(function(){
 		for(var i in e.currentTarget.parentNode.childNodes){
 			if(e.currentTarget.parentNode.childNodes[i].nodeName='LI'){
 				e.currentTarget.parentNode.childNodes[i].className="";
+				console.log($(this));
 			}
 		}
 		e.currentTarget.className="active";
